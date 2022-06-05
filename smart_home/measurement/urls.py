@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path
 
-#from demo.views import DemoView, WeaponView
+from .views import SensorcreatView, SensorupdateView, MesurcreatView, SensorsView, SensoridView
 
-
+v
 urlpatterns = [
      path('admin/', admin.site.urls),
      path('create_sensor/', SensorcreatView.as_view()),
