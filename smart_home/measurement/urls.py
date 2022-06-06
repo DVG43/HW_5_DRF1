@@ -3,7 +3,7 @@ from django.urls import path
 
 from .views import SensorcreatView, SensorupdateView, MesurcreatView, SensorsView, SensoridView
 
-v
+
 urlpatterns = [
      path('admin/', admin.site.urls),
      path('create_sensor/', SensorcreatView.as_view()),

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from models import Sensor, Measurement
+from .models import Sensor, Measurement
 
 # TODO: опишите необходимые сериализаторы
 
